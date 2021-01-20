@@ -1,0 +1,39 @@
+body {
+
+    background-color:#464646;
+    background-image: url("../images/John Wick 3 Continental Exterior, Alex Nice.jpg");
+
+    background-position: center center;
+    height: 100%;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    background-size: cover;
+
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+blockquote {
+    display: block;
+    max-width: 80vh;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: rgb(20, 21, 24);
+    color: #000000;
+    font-family: "Kotta One", serif;
+    font-size: calc(0.5rem + 0.9vw);
+}
+
+.equipment-images{
+    margin: 20px 0 10px 0;
+
+
+}

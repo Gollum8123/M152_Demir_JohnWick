@@ -1,0 +1,11 @@
+p{
+    text-align: center;
+}
+
+.card{
+    margin: 20px;
+}
+
+.card-img-top{
+    padding-top: 10px;
+}
