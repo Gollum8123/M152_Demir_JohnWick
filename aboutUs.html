@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta http-equiv="content-type" content="text/html" charset="UTF-8">
-    <meta name="robots"
-          content="">
+    <meta name="robots" content="Webseite for school project (John Wick 3)">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
 
@@ -16,72 +15,70 @@
 
     <link rel="shortcut icon" href="./favicon.ico">
 
-    <title></title>
+    <title>John Wick 3</title>
 </head>
 
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">John Wick 4</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="trailer.html">Trailer</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="ourTeam.html">Unser Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="dreharbeiten.html">Dreharbeiten</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="aboutUs.html">Kontakte</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">John Wick 4</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trailer.html">Trailer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ourTeam.html">Unser Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dreharbeiten.html">Dreharbeiten</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="aboutUs.html">Kontakte</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
-<main style="margin-top: 50px">
-    <blockquote>
-        <div class="mb-3">
-            <label class="form-label">Name</label>
-            <input type="text" class="form-control" id="name" placeholder="Name">
-        </div>
-        <div class="mb-3">
-            <label class="form-label">Betreff</label>
-            <input type="text" class="form-control" id="subject" placeholder="Betreff">
-        </div>
-        <div class="mb-3">
-            <label class="form-label">Inhalt</label>
-            <textarea class="form-control" id="content" rows="3"></textarea>
-        </div>
+    <main style="margin-top: 50px">
+        <blockquote>
+            <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Name">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Betreff</label>
+                <input type="text" class="form-control" id="subject" placeholder="Betreff">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Inhalt</label>
+                <textarea class="form-control" id="content" rows="3"></textarea>
+            </div>
 
-        <button type="submit" onclick="sendMail()" class="btn btn-primary">Submit</button>
-    </blockquote>
+            <button type="submit" onclick="sendMail()" class="btn btn-primary">Submit</button>
+        </blockquote>
 
-    <p id="demo"></p>
+        <p id="demo"></p>
 
-    <script>
-        function sendMail(){
-            var subject = document.getElementById("subject").value;
-            var content = document.getElementById("content").value;
-            window.open('mailto:test@example.com?subject='+subject+'&body='+content);
+        <script>
+            function sendMail(){
+                var subject = document.getElementById("subject").value;
+                var content = document.getElementById("content").value;
+                window.open('mailto:test@example.com?subject='+subject+'&body='+content);
 
-            document.getElementById("subject").value = "";
-            document.getElementById("name").value = "";
-            document.getElementById("content").value = "";
-        }
-    </script>
-
-</main>
+                document.getElementById("subject").value = "";
+                document.getElementById("name").value = "";
+                document.getElementById("content").value = "";
+            }
+        </script>
+    </main>
 
 </body>
 </html>
