@@ -1,7 +1,7 @@
-html {
-    scroll-behavior: smooth;
-    position: relative !important;
-    min-height: 100%;
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
 }
 
 main {
@@ -10,7 +10,7 @@ main {
 
 .video-container {
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 52.8%;
     padding-top: 35px;
     height: 0;
 }
@@ -19,8 +19,8 @@ main {
     position: absolute;
     width: 50%;
     height: 50%;
-    max-width: 80vw ;
-    max-height: 80vw ;
+    max-width: 80vw;
+    max-height: 80vw;
     margin: 50px;
 }
 
